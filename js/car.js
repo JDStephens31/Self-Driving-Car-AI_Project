@@ -1,6 +1,6 @@
 class Car {
   // controlType = "KEYS" OR "DUMMY" ---- KEYS THE MAIN ONE, DUMMY THE TRAFFIC
-  constructor(x, y, width, height, controlType, maxSpeed = 3, color = "blue") {
+  constructor(x, y, width, height, controlType, maxSpeed = 10, color = "blue") {
     this.x = x;
     this.y = y;
     this.width = width;

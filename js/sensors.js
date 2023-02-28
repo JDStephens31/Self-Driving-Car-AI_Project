@@ -1,8 +1,8 @@
 class Sensors {
   constructor(car) {
     this.car = car;
-    this.rayCount = 5;
-    this.rayLength = 150; // mean the range of each individual ray
+    this.rayCount = 10;
+    this.rayLength = 250; // mean the range of each individual ray
     this.raySpread = Math.PI / 2; // the angle between rays - Math.PI / 4 = 45 degree
 
     this.rays = [];
